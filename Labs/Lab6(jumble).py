@@ -1,4 +1,21 @@
 '''
+Write a program to help one cheat at the online and/or hardcopy Jumble word game. Its input should be a single user-entered word (uppercase, lowercase, or a mixture of both). Its output should be every word in words.txtPreview the document that can be derived by reordering the letters in the input word. The input word and the output word(s) thus have to be the exact same length with the exact same set of letters, other than your program should ignore case when determining matches. Sample input and output is given below. Note that in most cases, your program will only find one output word. And of course, if the input word cannot be unjumbled to match a word in the words.txt file, your output line will be empty.
+
+Submit your program via uploading a file named jumble.py, which I will execute myself.
+
+As usual, do not use any features we have not studied (recursion + everything after Chapter 10 in the book).
+
+ 
+
+====== RESTART: /Users/mamp/Desktop/WINTER-2018/CIS-40/WEEK-6/jumble.py ======
+Enter a jumbled word of any length: UPsYr
+pursy syrup 
+>>>  
+
+'''
+
+
+'''
 Core Function 
 '''
 def searchCore(text):

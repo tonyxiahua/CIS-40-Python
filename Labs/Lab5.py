@@ -1,3 +1,19 @@
+'''
+Create a program that reads words.txt (link near top of our home page) in order to:
+
+Determine the length of the longest word(s) and output that length plus the first word of this length found.
+Determine the length of the shortest word(s) and output that length plus the first word of this length found
+Determine and output the average length of all the words in the list.
+You should strip white space from each word before using its length in your calculations.
+
+My solution's output is:
+
+The longest words are 21 characters; an example is counterdemonstrations
+The shortest words are 2 characters; an example is aa
+The average word length is 7.933511409466738
+To submit: Copy/paste output into a Comment; upload your source file. 
+
+'''
 wordLongest =  ''
 wordLongestCount = 0
 wordShortest = ''

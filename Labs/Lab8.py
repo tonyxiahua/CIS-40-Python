@@ -1,3 +1,22 @@
+'''
+Write a grade-analyzer program that takes as its input the name of a file containing student scores between 0 and 100, inclusive, and outputs three values:
+
+mean - average of all the scores
+median - arithmetic midpoint of all the scores
+mode - most frequently occurring score(s) and the number of times that score(s) appeared
+NOTE: If the number of scores in the input file is odd, then the median should be the middle value, arithmetically. If the number of scores in the input file is even, then the median should be the average of the values around the midpoint. For example, a file with 16 scores would have a median that was the average of the 8th and 9th values.
+
+To submit your assignment, upload a single source code file.
+
+You should test your program against at least this file: numbers-even.txtPreview the document
+
+My program's output, using the above file for input, is:
+
+Mean grade is : 56.8125
+Median grade is : 52.5
+Mode grade(s) : 0 46 95 occurred 2 time(s) each
+'''
+
 def gradeAnalyzer(file):
     total = 0 
     counter = 0
